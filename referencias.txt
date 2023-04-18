@@ -1,0 +1,4 @@
+Links de referencia a todas esas cosas que vi de ZonedDateTime y ZoneId - 18/4/2023
+https://www.techiedelight.com/es/get-current-date-and-time-java/#:~:text=now()%20método.,-1&text=Se%20trata%20de%20obtener%20la,zona%20horaria%20específica%20en%20Java.
+https://lineadecodigo.com/java/ano-bisiesto-en-java/#:~:text=Para%20saber%20si%20un%20año,ser%20divisibles%20también%20por%20400.
+https://www.delftstack.com/es/howto/java/java-date-get-year/
