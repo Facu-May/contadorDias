@@ -1,6 +1,9 @@
 import java.time.LocalDate; // Este paquete contiene LocalDate, LocalTime y LocalDateTime.
 import java.time.temporal.ChronoUnit;
 
+//Popup message
+import javax.swing.JOptionPane;
+
 public class App {
 
     //GROSO CHATGPT
@@ -29,13 +32,20 @@ public class App {
         //con esta función, obtengo el tiempo entre dos fechas
         long duration = calcularDistanciaEnDias(primEne, hoy);
         //System.out.println(duration);
+        String msg;
         if(esBisiesto(anio)==false)
         {
-            System.out.println("Página "+ duration +" de 365");
+            msg = "Página "+ duration +" de 365";
         }
         else
         {
-            System.out.println("Página "+ duration +" de 366");
+            msg = "Página "+ duration +" de 366";
         }
+        //mensaje para el usuario
+        JOptionPane.showMessageDialog(null,
+                msg,
+                "Página del día - Facundo Mayordomo",
+                JOptionPane.INFORMATION_MESSAGE);
     }
 }
+
